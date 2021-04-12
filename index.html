@@ -2,12 +2,45 @@
 <html>
 <head>
  <title>Javascript</title>
- <script src='script.js'></script>
+ <script src='puzzle.js'></script>
 </head>
 <body>
-  <h1>Click the button to have some fun.</h1>
-  <p id="demo">Click the button to change the font size and font color.</p>
-  <button onclick="sayhello()">Click me</button>
-  <button onclick="showTopic()">Press me</button>
+  <div style="text-align:center">
+  <h1>LET'S HAVE SOME FUN!</h1>
+  <h2>1.Do you know how many people there are in NCT now?</h2>
+  <img src="nct1.jpeg" width="800" height="600"></img>
+  <ul>
+    <li id="demo1">A.23</li>
+      <button onclick="showTopic1()">Click me</button>
+    <li id="demo2">B.20</li>
+      <button onclick="showTopic2()">Click me</button>
+    <li id="demo3">C.18</li>
+      <button onclick="showTopic3()">Click me</button>
+    <li id="demo4">D.17</li>
+      <button onclick="showTopic4()">Click me</button>
+  </ul>
+  <h3>2.Which three of the following teams are from NCT?(Click the pictures please.)</h3>
+  <li>A. NCT127</li>
+  <img src="nct127.jpeg" width="300" height="400" onclick="showTopic5()"></img>
+  <a href="https://www.hk.wiiaa.top/baike-NCT_127" target="_blank">MORE</a>
+  <li>B. NCT DREAM</li>
+  <img src="nctdream.jpeg" width="500" height="300" onclick="showTopic5()"></img>
+  <a href="https://www.hk.wiiaa.top/wiki/NCT_DREAM" target="_blank">MORE</a>
+  <li>C. WAYV</li>
+  <img src="wayv.jpeg" width="300" height="400" onclick="showTopic5()"></img>
+  <a href="https://www.hk.wiiaa.top/wiki/WayV" target="_blank">MORE</a>
+  <li>D.NCT 116</li>
+  <img src="nctu.jpeg" width="400" height="300" onclick="showTopic6()"></img>
+  <a href="https://www.hk.wiiaa.top/wiki/NCT#NCT_U" target="_blank">MORE</a>
+  <ul>
+  <h4>3.Which one of the following statement is the oldest man of NCT</h4>
+  <button onclick="showTopic7()">A.Kun</button>
+  <img src="kun.gif" width="400" height="300"></img>
+  <button onclick="showTopic7()">B.Jeno</button>
+  <img src="jeno.gif" width="400" height="300"></img>
+  <button onclick="showTopic8()">C.Taeil</button>
+  <img src="taeil.gif" width="400" height="300"></img>
+  </ul>
+  </div>
 </body>
 </html>
